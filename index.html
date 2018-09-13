@@ -1,0 +1,54 @@
+<!Doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>
+		calculator
+	</title>
+</head>
+<body>
+		
+<div>
+	<form name="wap">
+		<input type="text" name="result">
+		<br><br>
+		<input type="button" value="1" onclick="document.wap.result.value+=1">
+		<input type="button" value="2" onclick="document.wap.result.value+=2">
+		<input type="button" value="3" onclick="document.wap.result.value+=3">
+		<input type="button" value="4" onclick="document.wap.result.value+=3">
+
+		<br><br>
+		<input type="button" value="5" onclick="document.wap.result.value+=5">
+		<input type="button" value="6" onclick="document.wap.result.value+=6">
+		<input type="button" value="7" onclick="document.wap.result.value+=7">
+		<input type="button" value="8" onclick="document.wap.result.value+=8">
+
+		<br><br>
+		<input type="button" value="9" onclick="document.wap.result.value+=9">
+		<input type="button" value="0" onclick="document.wap.result.value+=0">
+		<input type="button" value="." onclick="document.wap.result.value+='.'">
+		<input type="button" value="c" onclick="document.wap.result.value=''">
+
+		<br><br>
+		<input type="button" value="+" onclick="document.wap.result.value+='+'">
+		<input type="button" value="-" onclick="document.wap.result.value+='-'">
+		<input type="button" value="*" onclick="document.wap.result.value+='*'">
+		<input type="button" value="/" onclick="document.wap.result.value+='/'">
+
+		<br><br>
+		<input  type="button" value="=" style="width:90%;
+	height:35px; margin-left: 12px; border-radius:4px" onclick="document.wap.result.value=eval(document.wap.result.value)">
+		
+
+
+	</form>
+	
+</div>
+
+
+
+
+
+</body>
+</html>
